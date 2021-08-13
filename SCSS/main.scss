@@ -1,0 +1,67 @@
+@import"../SCSS/partials/productos";
+@import"../SCSS/partials/eventos";
+@import"../SCSS/partials/integrantes";
+@import"../SCSS/partials/mixin";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: lightgray
+}
+h1{
+    font-size: 3rem; 
+    letter-spacing: 7px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 5px;
+}
+.carousel-item>img{
+    object-fit: cover;
+    height: calc(100vh - 10px);
+    width: 100%;
+}
+
+.navFondo{
+    background-color: black;
+  /*  height: 17vh; */
+    &__img{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+.novedades{
+    background-color: black;
+    color: white;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer a{
+    text-decoration:  none;
+    color:white;
+}
+
+
+$redes: ( 
+        ig: #ca3993,
+        wpp:  green,
+        fb: #4052f0
+); 
+@each $red, $color in $redes {
+   .icon__#{$red} {
+       color: $color;
+   }
+}
+
+

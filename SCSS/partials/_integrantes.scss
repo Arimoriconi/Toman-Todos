@@ -1,0 +1,21 @@
+$ancho: 720px;
+
+
+.integrantes{
+    &__cont{
+        font-style: italic;
+        text-align: -webkit-center;
+}
+    &__img{
+        border-radius: 50%;
+    }
+    &__row--bg{
+        background-color: grey;
+        color: white;
+    }
+    &__name{
+        background: rgb(47,47,47);
+        background: linear-gradient(90deg, rgba(47,47,47,1) 0%, rgba(117,117,117,1) 100%);
+        width: $ancho/2;
+    }
+}

@@ -1,0 +1,112 @@
+/* MEDIA QUERIS */
+.productos__container {
+  position: relative; }
+
+.productos__img {
+  display: block;
+  height: auto;
+  width: 100%; }
+
+.productos__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black; }
+
+.productos__container:hover .productos__overlay {
+  opacity: 1; }
+
+.productos__text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.eventos {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(https://lanubefm.com.ar/12-2020/resize_1608563587.jpg);
+  background-size: cover; }
+
+.eventos__btn {
+  padding: 1rem; }
+
+.eventos__btn:hover {
+  background-color: black;
+  color: white; }
+
+.integrantes__cont {
+  font-style: italic;
+  text-align: -webkit-center; }
+
+.integrantes__img {
+  border-radius: 50%; }
+
+.integrantes__row--bg {
+  background-color: grey;
+  color: white; }
+
+.integrantes__name {
+  background: #2f2f2f;
+  background: linear-gradient(90deg, #2f2f2f 0%, #757575 100%);
+  width: 360px; }
+
+/* MEDIA QUERIS */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive;
+  scroll-behavior: smooth; }
+
+body {
+  background-color: lightgray; }
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 7px;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 5px; }
+
+.carousel-item > img {
+  object-fit: cover;
+  height: calc(100vh - 10px);
+  width: 100%; }
+
+.navFondo {
+  background-color: black;
+  /*  height: 17vh; */ }
+  .navFondo__img {
+    width: 6rem;
+    height: 6rem; }
+
+.novedades {
+  background-color: black;
+  color: white; }
+
+.footer {
+  background-color: black;
+  color: white; }
+
+.footer a {
+  text-decoration: none;
+  color: white; }
+
+.icon__ig {
+  color: #ca3993; }
+
+.icon__wpp {
+  color: green; }
+
+.icon__fb {
+  color: #4052f0; }

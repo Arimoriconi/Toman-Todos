@@ -1,0 +1,10 @@
+@mixin size($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ 
+
+
+/* MEDIA QUERIS */
+@media screen and (max-width: 768px) {
+}
