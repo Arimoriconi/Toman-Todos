@@ -128,11 +128,14 @@ h1 {
   text-decoration: none;
   color: white; }
 
-.icon__ig {
+.footer a:hover {
+  color: greenyellow; }
+
+.icon__ig:hover {
   color: #ca3993; }
 
-.icon__wpp {
+.icon__wpp:hover {
   color: green; }
 
-.icon__fb {
+.icon__fb:hover {
   color: #4052f0; }

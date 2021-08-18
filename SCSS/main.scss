@@ -52,6 +52,9 @@ h1{
     color:white;
 }
 
+.footer a:hover{
+    color: greenyellow;
+}
 
 $redes: ( 
         ig: #ca3993,
@@ -59,7 +62,7 @@ $redes: (
         fb: #4052f0
 ); 
 @each $red, $color in $redes {
-   .icon__#{$red} {
+   .icon__#{$red}:hover {
        color: $color;
    }
 }
