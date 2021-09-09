@@ -18,7 +18,7 @@ body{
     color: white;
 }
 h1{
-    font-size: 4em; 
+    font-size: 3.60em; 
     letter-spacing: 7px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
@@ -37,12 +37,19 @@ h1{
         height: 6rem;
     }
 }
-
 .novedades{
     background-color: black;
     color: white;
 }
 
+.hero__carrusel{
+    bottom: 12rem;
+    background: black;
+    background: linear-gradient(90deg, rgba(0,0,0,0.5242471988795518) 100%, rgba(117,117,117,1) 100%);
+    h2{
+        font-size: 5rem;
+    }
+}
 
 .footer{
     background-color: black;
